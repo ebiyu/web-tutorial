@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## web-tutorial
 
-You can use the [editor on GitHub](https://github.com/ebiyuu1121/web-tutorial/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Nuxt.jsを用いて簡単なWebサイトを構築できるようになるためのチュートリアルです。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+各章に賞末問題を配置しています。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ebiyuu1121/web-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+「ここの説明が足りない」「ここの情報が間違っている」「ここはこの方がわかりやすいのでは」などあれば、気軽に[GitHubでissueを発行](https://github.com/ebiyuu1121/web-tutorial/issues/new)してください。修正できる場合はPull-requestを作成していただいて構いません。
