@@ -8,6 +8,11 @@
 mac の場合はアプリケーションランチャーから探してターミナルを起動します。  
 windows の場合は windows power shell を使うとよいでしょう。
 
+**このチュートリアルでは、今後Windowsに関しては詳しく書きません。
+Windows ユーザーは WSL(Windows subsystem for Linux,575) を利用すると Linux コマンドを実行することができるようになるので、できれば導入してください。**
+
+ - 参考:[WSL をインストールする \- Qiita](https://qiita.com/matarillo/items/61a9ead4bfe2868a0b86)
+
 ### 現在のフォルダ
 
 ターミナルで最もよく行う操作はファイル操作だと思います。
@@ -59,10 +64,7 @@ $ cd Desktop
 ここまで見てきたコマンドは mac・Linux・PowerShell 共通のコマンドでした。
 しかし、共通のコマンドのほうが少ないので、環境ごとにリンクを貼っておきます。
 
-また、Windows ユーザーは WSL(Windows subsystem for Linux,575) を利用すると Linux コマンドを実行することができるようになります。
-もしPCの容量に余裕があれば導入しておくといいでしょう。
 
-_参考:[WSL をインストールする \- Qiita](https://qiita.com/matarillo/items/61a9ead4bfe2868a0b86)_
 
 max・Linux ユーザーへ
 
