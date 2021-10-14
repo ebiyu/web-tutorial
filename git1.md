@@ -9,7 +9,7 @@ git は web サイトを作る上では必須ではありません。しかし�
 
 ## 章末課題
 
-1. [このリポジトリ](https://github.com/ebiyuu1121/web-tutorial)をforkしてください。
+1. [練習用リポジトリ](https://github.com/ebiyuu1121/web-tutorial-practice)をforkしてください。
 2. forkしたリポジトリをcloneしましょう。
 3. 自分の名前（GitHub id やニックネームで大丈夫です）のフォルダを作りましょう。
 4. フォルダの中に適当なテキストファイル（`好きな名前.txt`）を作って、何か書きましょう。
@@ -76,14 +76,23 @@ git で開発をするときの流れは以下のようになっています。
 
 それぞれ説明していきましょう。
 
+### GitHubでforkを行う
+
+編集するためのソースコードを、[練習用リポジトリ](https://github.com/ebiyuu1121/web-tutorial-practice)からあなたのリポジトリにコピー(fork)します。
+
+1. [練習用リポジトリ](https://github.com/ebiyuu1121/web-tutorial-practice)にアクセスします。
+2. Forkボタンを入力します。
+3. `ユーザー名/web-tutorial` のリポジトリが作成されます。
+
 ### GitHub 上のソースコードを手元に持ってくる
 
-まず、編集するためにはファイルを PC の中に持ってくる必要があります。
+編集するためにはファイルを PC の中に持ってくる必要があります。
+先ほどforkしたフォルダをPCに取得(clone)しましょう。
 
 適当なフォルダ（git 用のフォルダを作る人が多いようです）で以下のコマンドを実行しましょう。
 
 ```sh
-$ git clone git@github.com:ebiyuu1121/cast-lecture
+$ git clone git@github.com:ユーザー名/web-tutorial
 ```
 
 `git clone`に続けてこのリポジトリの url を指定しています。
@@ -92,7 +101,7 @@ $ git clone git@github.com:ebiyuu1121/cast-lecture
 前述の ssh 設定がうまくいっていれば、フォルダができてファイルが配置されているはずです。
 
 ```sh
-$ cd cast-lecture
+$ cd web-tutorial
 ```
 
 を実行してフォルダの中に入っておきましょう。
@@ -142,9 +151,7 @@ git での開発は「変更内容を積み重ねていく」イメージで行�
 
 VSCode の左下の同期ボタン（`master`と書いてある右側）を押しましょう。変更が送信（push）されます。
 
-ここへの push は slack の`#90_web-lecture-notify`に自動通知されるように設定してあります。チェックしてみましょう。
-
-また、[GitHub](https://github.com/ebiyuu1121/cast-lecture)で確認してみましょう。変更されているはずです。
+GitHubで確認してみましょう。変更されているはずです。
 
 ### 他の人のコミットを受信する(pull)
 
