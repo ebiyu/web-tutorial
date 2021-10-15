@@ -16,7 +16,24 @@
 
 1. git 編でクローンした練習用リポジトリに、`html`というフォルダを作成し、`practice.html`というファイルを作成しましょう。
 2. 写真のような web サイトを、html を使って書いてみましょう。
-   ![](imgs/html-question.png)
+
+
+<iframe>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ぼくのウェブサイト</title>
+  </head>
+  <body>
+    <h1>ぼくのウェブサイト</h1>
+    <h2>連絡先</h2>
+    <a href="https://github.com/ebiyuu1121">github</a>
+    <a href="https://twitter.com/ebiyuu1121_">Twitter</a>
+  </body>
+</html>
+</iframe>
+
 3. git 編でやったように、ステージ・コミット・push をして反映させましょう。
 
 ## HTML とは
