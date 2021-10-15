@@ -1,5 +1,7 @@
 # git編
 
+[要望](https://github.com/ebiyuu1121/web-tutorial/issues/new/choose) / [編集を提案](https://github.com/ebiyuu1121/web-tutorial/edit/main/git1.md)
+
 git は web サイトを作る上では必須ではありません。しかし、web 開発に限らず、共同開発をする上では必須と言っていいほどだと思います。
 また、個人開発でも一度使うと手放せなくなります。ぜひ使えるようになりましょう。
 
