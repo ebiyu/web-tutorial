@@ -233,4 +233,4 @@ $main_color: red;
 
 （かく）
 
-次は[JavaScript 編](js.md)！
+次は[JavaScript 編](js1.md)！
